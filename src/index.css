@@ -1,0 +1,56 @@
+
+/* globals */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-hue: 270;
+    --black-lightness: 15%;
+    --dark-lightness: 44%;
+    --light-lightness: 94%;
+    --white-lightness: 100%;
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+
+    /* Main container variables */
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+
+    /* BBorder radious variables */
+    --border-radius-1: 1.2rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 0.5rem;
+
+    /* Main transition variables */
+    --transition: all 500ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+/* Main container class */
+.container {
+    width: var(--container-width-lg);
+    margin-inline: auto;
+    max-width: 1920px;
+}
+
+/* Main section styles */
+
