@@ -1,94 +1,94 @@
-import Image1 from '../../assets/dog1.jpg'
-import Image2 from '../../assets/dog2.jpg'
-import Image3 from '../../assets/dog3.jpg'
-import Image4 from '../../assets/dog4.jpg'
-import Image5 from '../../assets/dog5.jpg'
-import Image6 from '../../assets/dog6.jpg'
-import Image7 from '../../assets/dog7.jpg'
-import Image8 from '../../assets/dog8.jpg'
-import Image9 from '../../assets/dog9.jpg'
+import Image1 from '../../assests/about1.jpg'
+import Image2 from '../../assests/dog2.jpg'
+import Image3 from '../../assests/dog3.jpg'
+import Image4 from '../../assests/dog4.jpg'
+import Image5 from '../../assests/dog5.jpg'
+import Image6 from '../../assests/dog6.jpg'
+import Image7 from '../../assests/dog7.jpg'
+import Image8 from '../../assests/dog8.jpg'
+import Image9 from '../../assests/dog9.jpg'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'feature',
         image: Image1,
-        title: "Project Title One (UIUX)",
+        title: "Pic Title One",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'penny',
         image: Image2,
-        title: "Project Title Two (Frontend)",
+        title: "Pic Title Two",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: 'https://www.talkandstuff.com/forum/threads/meet-penny.3/',
+        
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'penny',
         image: Image3,
-        title: "Project Title Three (Frontend)",
+        title: "Pic Title Three",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'jake',
         image: Image4,
-        title: "Project Title Four (UIUX)",
+        title: "Pic Title Four",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'kessy',
         image: Image5,
-        title: "Project Title Five (UIUX)",
+        title: "Pic Title Five",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 6,
-        category: 'frontend',
+        category: 'jake',
         image: Image6,
-        title: "Project Title Six (Frontend)",
+        title: "Pic Title Six",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 7,
-        category: 'frontend',
+        category: 'jake',
         image: Image7,
-        title: "Project Title Seven (Frontend)",
+        title: "Pic Title Seven",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+       
     },
     {
         id: 8,
-        category: 'backend',
+        category: 'mira',
         image: Image8,
-        title: "Project Title Eight (Backend)",
+        title: "Pic Title Eight",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     },
     {
         id: 9,
-        category: 'frontend',
+        category: 'penny',
         image: Image9,
-        title: "Project Title Nine (Frontend)",
+        title: "Pic Title Nine",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        view: '#',
+        
     }
 ]
 
